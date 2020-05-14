@@ -14,5 +14,7 @@ target 'Pursuit-Core-iOS-Firebase-Project' do
   
   # Storage is used to store media files
   pod 'Firebase/Storage'
+  
+  pod 'Kingfisher'
 
 end

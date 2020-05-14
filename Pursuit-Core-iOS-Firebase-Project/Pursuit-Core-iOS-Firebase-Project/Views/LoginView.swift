@@ -79,11 +79,6 @@ class LoginView: UIView {
         return button
     }()
     
-    public lazy var experiencePickerView: UIPickerView = {
-        let pickerView = UIPickerView()
-        return pickerView
-    }()
-    
     override init(frame: CGRect) {
         super.init(frame: UIScreen.main.bounds)
         self.backgroundColor = .systemBackground
@@ -125,7 +120,6 @@ class LoginView: UIView {
         passwordTextFieldConstrainsts()
         loginCreateButtonConstrainsts()
         loginToggleStackViewConstrainsts()
-        pickerViewConstrainsts()
     }
     
     private func emailTextFieldConstrainsts(){
@@ -173,19 +167,5 @@ class LoginView: UIView {
             loginToggleStackView.topAnchor.constraint(equalTo: loginCreateButton.bottomAnchor, constant: 30)
         ])
     }
-    
-    private func pickerViewConstrainsts(){
-        containerView.addSubview(experiencePickerView)
-        experiencePickerView.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            experiencePickerView.centerXAnchor.constraint(equalTo: containerView.centerXAnchor),
-            experiencePickerView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 20),
-            experiencePickerView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -20),
-            experiencePickerView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -10),
-            experiencePickerView.topAnchor.constraint(equalTo: loginToggleStackView.bottomAnchor, constant: 10)
-        ])
-    }
-    
-
 }
 

@@ -33,5 +33,26 @@ class AuthenticationSession {
       }
     }
   }
+    
+    public func updateExistingUser(displayName: String? = nil, photoURL: URL? = nil, completion: @escaping (Result<Bool, Error>)->()){
+        guard let user = Auth.auth().currentUser else {
+            return
+        }
+        
+        let request = user.createProfileChangeRequest()
+        if let name = displayName {
+            request.displayName = name
+        }
+        if let photoURL = photoURL{
+            request.photoURL = photoURL
+        }
+        request.commitChanges { (error) in
+            if let error = error{
+                completion(.failure(error))
+            } else {
+                completion(.success(true))
+            }
+        }
+    }
   
 }

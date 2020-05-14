@@ -17,6 +17,23 @@
 		F1DA9308246D00BB00C36BDB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9307246D00BB00C36BDB /* LoginView.swift */; };
 		F1DA9311246D03CF00C36BDB /* AuthenticationSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9310246D03CF00C36BDB /* AuthenticationSession.swift */; };
 		F1DA9313246D040A00C36BDB /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9312246D040A00C36BDB /* DatabaseService.swift */; };
+		F1DA9315246D07DC00C36BDB /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9314246D07DC00C36BDB /* StorageService.swift */; };
+		F1DA9317246D114900C36BDB /* UIViewController+Nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9316246D114900C36BDB /* UIViewController+Nav.swift */; };
+		F1DA9319246D117800C36BDB /* UIImage+resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9318246D117800C36BDB /* UIImage+resize.swift */; };
+		F1DA931B246D119700C36BDB /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA931A246D119700C36BDB /* UIViewController+Alerts.swift */; };
+		F1DA931D246D133200C36BDB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA931C246D133200C36BDB /* TabBarController.swift */; };
+		F1DA931F246D13C900C36BDB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA931E246D13C900C36BDB /* FeedViewController.swift */; };
+		F1DA9321246D15B800C36BDB /* ImageUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9320246D15B800C36BDB /* ImageUploadViewController.swift */; };
+		F1DA9323246D15DC00C36BDB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9322246D15DC00C36BDB /* ProfileViewController.swift */; };
+		F1DA9325246D189A00C36BDB /* IgUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9324246D189A00C36BDB /* IgUser.swift */; };
+		F1DA9327246D196900C36BDB /* IgPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9326246D196900C36BDB /* IgPost.swift */; };
+		F1DA932B246D1B0200C36BDB /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA932A246D1B0200C36BDB /* EmptyView.swift */; };
+		F1DA932D246D1BF900C36BDB /* InstagramFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA932C246D1BF900C36BDB /* InstagramFeedView.swift */; };
+		F1DA932F246D1EB900C36BDB /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA932E246D1EB900C36BDB /* FeedCell.swift */; };
+		F1DA9331246D1FD600C36BDB /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DA9330246D1FD600C36BDB /* FeedCell.xib */; };
+		F1DA9335246D2AF600C36BDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1DA9334246D2AF600C36BDB /* GoogleService-Info.plist */; };
+		F1DA9337246D344400C36BDB /* Date+StringInterp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9336246D344400C36BDB /* Date+StringInterp.swift */; };
+		F1DA9339246E037900C36BDB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA9338246E037800C36BDB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +51,23 @@
 		F1DA9307246D00BB00C36BDB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F1DA9310246D03CF00C36BDB /* AuthenticationSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSession.swift; sourceTree = "<group>"; };
 		F1DA9312246D040A00C36BDB /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		F1DA9314246D07DC00C36BDB /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		F1DA9316246D114900C36BDB /* UIViewController+Nav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nav.swift"; sourceTree = "<group>"; };
+		F1DA9318246D117800C36BDB /* UIImage+resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+resize.swift"; sourceTree = "<group>"; };
+		F1DA931A246D119700C36BDB /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
+		F1DA931C246D133200C36BDB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F1DA931E246D13C900C36BDB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F1DA9320246D15B800C36BDB /* ImageUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadViewController.swift; sourceTree = "<group>"; };
+		F1DA9322246D15DC00C36BDB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F1DA9324246D189A00C36BDB /* IgUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgUser.swift; sourceTree = "<group>"; };
+		F1DA9326246D196900C36BDB /* IgPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgPost.swift; sourceTree = "<group>"; };
+		F1DA932A246D1B0200C36BDB /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		F1DA932C246D1BF900C36BDB /* InstagramFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFeedView.swift; sourceTree = "<group>"; };
+		F1DA932E246D1EB900C36BDB /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		F1DA9330246D1FD600C36BDB /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
+		F1DA9334246D2AF600C36BDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1DA9336246D344400C36BDB /* Date+StringInterp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+StringInterp.swift"; sourceTree = "<group>"; };
+		F1DA9338246E037800C36BDB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +127,8 @@
 				F1DA930B246D030600C36BDB /* Controllers */,
 				F1DA9309246D02F000C36BDB /* Secrets */,
 				F1DA9306246D00AE00C36BDB /* Views */,
-				F1DA92F6246D002C00C36BDB /* LoginViewController.swift */,
 				F1DA92F8246D002C00C36BDB /* Main.storyboard */,
+				F1DA9334246D2AF600C36BDB /* GoogleService-Info.plist */,
 				F1DA92FD246D003400C36BDB /* LaunchScreen.storyboard */,
 				F1DA9300246D003400C36BDB /* Info.plist */,
 			);
@@ -105,6 +139,10 @@
 			isa = PBXGroup;
 			children = (
 				F1DA9307246D00BB00C36BDB /* LoginView.swift */,
+				F1DA932A246D1B0200C36BDB /* EmptyView.swift */,
+				F1DA932C246D1BF900C36BDB /* InstagramFeedView.swift */,
+				F1DA932E246D1EB900C36BDB /* FeedCell.swift */,
+				F1DA9330246D1FD600C36BDB /* FeedCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +157,12 @@
 		F1DA930B246D030600C36BDB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F1DA92F6246D002C00C36BDB /* LoginViewController.swift */,
+				F1DA931C246D133200C36BDB /* TabBarController.swift */,
+				F1DA931E246D13C900C36BDB /* FeedViewController.swift */,
+				F1DA9320246D15B800C36BDB /* ImageUploadViewController.swift */,
+				F1DA9322246D15DC00C36BDB /* ProfileViewController.swift */,
+				F1DA9338246E037800C36BDB /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -126,6 +170,10 @@
 		F1DA930C246D031800C36BDB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F1DA9316246D114900C36BDB /* UIViewController+Nav.swift */,
+				F1DA9318246D117800C36BDB /* UIImage+resize.swift */,
+				F1DA931A246D119700C36BDB /* UIViewController+Alerts.swift */,
+				F1DA9336246D344400C36BDB /* Date+StringInterp.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -135,6 +183,7 @@
 			children = (
 				F1DA9310246D03CF00C36BDB /* AuthenticationSession.swift */,
 				F1DA9312246D040A00C36BDB /* DatabaseService.swift */,
+				F1DA9314246D07DC00C36BDB /* StorageService.swift */,
 			);
 			path = FirebaseServices;
 			sourceTree = "<group>";
@@ -142,6 +191,8 @@
 		F1DA930E246D033B00C36BDB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F1DA9324246D189A00C36BDB /* IgUser.swift */,
+				F1DA9326246D196900C36BDB /* IgPost.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1DA92FF246D003400C36BDB /* LaunchScreen.storyboard in Resources */,
+				F1DA9335246D2AF600C36BDB /* GoogleService-Info.plist in Resources */,
+				F1DA9331246D1FD600C36BDB /* FeedCell.xib in Resources */,
 				F1DA92FC246D003400C36BDB /* Assets.xcassets in Resources */,
 				F1DA92FA246D002C00C36BDB /* Main.storyboard in Resources */,
 			);
@@ -273,10 +326,25 @@
 			files = (
 				F1DA9313246D040A00C36BDB /* DatabaseService.swift in Sources */,
 				F1DA92F7246D002C00C36BDB /* LoginViewController.swift in Sources */,
+				F1DA931D246D133200C36BDB /* TabBarController.swift in Sources */,
+				F1DA9325246D189A00C36BDB /* IgUser.swift in Sources */,
+				F1DA9321246D15B800C36BDB /* ImageUploadViewController.swift in Sources */,
+				F1DA9323246D15DC00C36BDB /* ProfileViewController.swift in Sources */,
+				F1DA9339246E037900C36BDB /* DetailViewController.swift in Sources */,
+				F1DA9317246D114900C36BDB /* UIViewController+Nav.swift in Sources */,
+				F1DA932B246D1B0200C36BDB /* EmptyView.swift in Sources */,
+				F1DA931B246D119700C36BDB /* UIViewController+Alerts.swift in Sources */,
 				F1DA92F3246D002C00C36BDB /* AppDelegate.swift in Sources */,
 				F1DA9308246D00BB00C36BDB /* LoginView.swift in Sources */,
+				F1DA932F246D1EB900C36BDB /* FeedCell.swift in Sources */,
+				F1DA9337246D344400C36BDB /* Date+StringInterp.swift in Sources */,
 				F1DA9311246D03CF00C36BDB /* AuthenticationSession.swift in Sources */,
 				F1DA92F5246D002C00C36BDB /* SceneDelegate.swift in Sources */,
+				F1DA9315246D07DC00C36BDB /* StorageService.swift in Sources */,
+				F1DA9327246D196900C36BDB /* IgPost.swift in Sources */,
+				F1DA931F246D13C900C36BDB /* FeedViewController.swift in Sources */,
+				F1DA9319246D117800C36BDB /* UIImage+resize.swift in Sources */,
+				F1DA932D246D1BF900C36BDB /* InstagramFeedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

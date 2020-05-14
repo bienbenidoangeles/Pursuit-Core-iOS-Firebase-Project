@@ -14,15 +14,14 @@ import FirebaseAuth
 class DatabaseService {
   
   static let usersCollection = "users"
-  static let favoritesTickets = "favoritedTickets"
-    static let favoriteMuseum = "favoritedMuseum"
+  static let igPostCollection = "posts"
   
   private let db = Firestore.firestore()
   
   private init() {}
   static let shared = DatabaseService()
   
-    public func createDatabaseUser(authDataResult: AuthDataResult, userExp: UserExperience, completion: @escaping (Result<Bool, Error>) -> ()) {
+    public func createDatabaseUser(authDataResult: AuthDataResult, completion: @escaping (Result<Bool, Error>) -> ()) {
     guard let email = authDataResult.user.email else {
       return
     }
@@ -31,7 +30,7 @@ class DatabaseService {
       .setData(["email" : email,
                 "createdDate": Timestamp(date: Date()),
                 "userId": authDataResult.user.uid,
-                "userExp": userExp.rawValue ]) { (error) in
+      ]) { (error) in
       
       if let error = error {
         completion(.failure(error))
@@ -40,4 +39,24 @@ class DatabaseService {
       }
     }
   }
+    
+    public func createPost(post: IgPost, completion: @escaping (Result<Bool, Error>) -> ()) {
+        
+        guard let user = Auth.auth().currentUser, let displayName = user.displayName else { return }
+        let documentRef = db.collection(DatabaseService.igPostCollection).document()
+        db.collection(DatabaseService.igPostCollection).document(documentRef.documentID).setData([
+            "username" : displayName,
+            "userId": user.uid,
+            "postId": post.postId,
+            "photoURL": post.photoURL,
+            "creationDate": post.creationDate
+        ]) { (error) in
+            if let error = error {
+                completion(.failure(error))
+            } else {
+                completion(.success(true))
+            }
+        }
+        
+    }
 }
